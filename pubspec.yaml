@@ -1,0 +1,21 @@
+name: icones
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.2.0-134.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+
+flutter:
+  fonts:
+    - family: MingCuteIcon
+      fonts:
+        - asset: assets/fonts/MingCuteIcon.ttf
