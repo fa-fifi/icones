@@ -19,3 +19,6 @@ flutter:
     - family: MingCuteIcon
       fonts:
         - asset: assets/fonts/MingCuteIcon.ttf
+    - family: Carbon
+      fonts:
+        - asset: assets/fonts/Carbon.ttf
