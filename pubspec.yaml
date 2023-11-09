@@ -1,7 +1,7 @@
 name: icones
-description: A starting point for Dart libraries or applications.
+description: Icônes icon explorer package for Flutter framework.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/fa-fifi/icones
 
 environment:
   sdk: ^3.2.0-134.0.dev
