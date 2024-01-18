@@ -3,6 +3,6 @@
 /// ###### 118 iconsets
 library icones;
 
-export 'categories/general/carbon/src.dart';
-export 'categories/general/mingcute_icon/src.dart';
+export 'categories/general/carbon.dart';
+export 'categories/general/mingcute_icon.dart';
 export 'widgets/duotone_icon.dart';
