@@ -1,6 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/widgets.dart';
+import 'package:icones/widgets/duotone_icon.dart';
 
 class MingCuteIconData extends IconData {
   const MingCuteIconData(super.codePoint)
@@ -3006,13 +3007,19 @@ abstract final class MingCuteIcon {
 
   static const IconData loading_2_line = MingCuteIconData(0xeed3);
 
-  static const IconData loading_3_fill_path1 = MingCuteIconData(0xeed4);
+  static const DuotoneIconData loading_3_fill =
+      (MingCuteIcon._loading_3_fill_path1, MingCuteIcon._loading_3_fill_path2);
 
-  static const IconData loading_3_fill_path2 = MingCuteIconData(0xeed5);
+  static const IconData _loading_3_fill_path1 = MingCuteIconData(0xeed4);
 
-  static const IconData loading_3_line_path1 = MingCuteIconData(0xeed6);
+  static const IconData _loading_3_fill_path2 = MingCuteIconData(0xeed5);
 
-  static const IconData loading_3_line_path2 = MingCuteIconData(0xeed7);
+  static const DuotoneIconData loading_3_line =
+      (MingCuteIcon._loading_3_line_path1, MingCuteIcon._loading_3_line_path2);
+
+  static const _loading_3_line_path1 = MingCuteIconData(0xeed6);
+
+  static const IconData _loading_3_line_path2 = MingCuteIconData(0xeed7);
 
   static const IconData loading_4_fill = MingCuteIconData(0xeed8);
 
@@ -5379,13 +5386,4 @@ abstract final class MingCuteIcon {
   static const IconData zoom_out_fill = MingCuteIconData(0xf36e);
 
   static const IconData zoom_out_line = MingCuteIconData(0xf36f);
-}
-
-@staticIconProvider
-abstract final class MingCuteIconDuotone {
-  static const loading_3_fill =
-      (MingCuteIcon.loading_3_fill_path1, MingCuteIcon.loading_3_fill_path2);
-
-  static const loading_3_line =
-      (MingCuteIcon.loading_3_line_path1, MingCuteIcon.loading_3_line_path2);
 }
