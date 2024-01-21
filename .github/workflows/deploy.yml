@@ -1,7 +1,9 @@
 name: Github Page
 
 on:
-  push:
+  workflow_run:
+    workflows: publish
+    types: completed
     branches: main
 
 jobs:
