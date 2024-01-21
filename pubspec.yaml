@@ -1,6 +1,6 @@
 name: icones
 description: Icon explorer package for Flutter framework inspired by the work of @antfu.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/fa-fifi/icones
 
 environment:
