@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 
 class CarbonIconData extends IconData {
-  const CarbonIconData(int codePoint)
-      : super(codePoint, fontFamily: 'Carbon', fontPackage: 'icones');
+  const CarbonIconData(super.codePoint)
+      : super(fontFamily: 'Carbon', fontPackage: 'icones');
 }
 
 /// ## [Carbon](https://carbondesignsystem.com/guidelines/icons/library)
