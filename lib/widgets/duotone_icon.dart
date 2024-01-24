@@ -9,8 +9,7 @@ class DuotoneIcon extends StatelessWidget {
   final double opacity;
   // final double? percentage;
 
-  const DuotoneIcon(
-      {super.key, required this.icon, this.color, this.opacity = 0.2});
+  const DuotoneIcon(this.icon, {super.key, this.color, this.opacity = 0.2});
 
   @override
   Widget build(BuildContext context) =>
