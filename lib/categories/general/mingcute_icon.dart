@@ -3,6 +3,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:icones/widgets/duotone_icon.dart';
 
+// TODO: Create duotone icon data for each pair of icons.
 class MingCuteIconData extends IconData {
   const MingCuteIconData(super.codePoint)
       : super(fontFamily: 'MingCuteIcon', fontPackage: 'icones');
@@ -3008,16 +3009,16 @@ abstract final class MingCuteIcon {
   static const IconData loading_2_line = MingCuteIconData(0xeed3);
 
   static const DuotoneIconData loading_3_fill =
-      (MingCuteIcon._loading_3_fill_path1, MingCuteIcon._loading_3_fill_path2);
+      (_loading_3_fill_path1, _loading_3_fill_path2);
 
   static const IconData _loading_3_fill_path1 = MingCuteIconData(0xeed4);
 
   static const IconData _loading_3_fill_path2 = MingCuteIconData(0xeed5);
 
   static const DuotoneIconData loading_3_line =
-      (MingCuteIcon._loading_3_line_path1, MingCuteIcon._loading_3_line_path2);
+      (_loading_3_line_path1, _loading_3_line_path2);
 
-  static const _loading_3_line_path1 = MingCuteIconData(0xeed6);
+  static const IconData _loading_3_line_path1 = MingCuteIconData(0xeed6);
 
   static const IconData _loading_3_line_path2 = MingCuteIconData(0xeed7);
 
