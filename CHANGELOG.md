@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - New icon set: Carbon Pictogram.
 - Enable rotation on DuotoneIcon widget.
-- Reformat icon class code structure.
 
 ## [1.0.3] - 2024-01-23
 
