@@ -30,5 +30,5 @@ flutter:
         - asset: assets/fonts/MingCuteIcon.ttf
 
 topics:
-  - Carbon
-  - MingCuteIcon
+  - carbon
+  - mingcute-icon
