@@ -7,9 +7,9 @@ class CarbonIconData extends IconData {
       : super(fontFamily: 'CarbonIcon', fontPackage: 'icones');
 }
 
-/// ## [Carbon](https://carbondesignsystem.com/guidelines/icons/library)
+/// ## [Carbon Icon](https://carbondesignsystem.com/guidelines/icons/library)
 /// #### IBM
-/// ###### v 11.29.2
+/// ###### v 11.29.0
 @staticIconProvider
 abstract final class CarbonIcon {
   static const IconData $3d_cursor = CarbonIconData(0xe001);
