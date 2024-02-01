@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 
 class CarbonIconData extends IconData {
   const CarbonIconData(super.codePoint)
-      : super(fontFamily: 'Carbon', fontPackage: 'icones');
+      : super(fontFamily: 'CarbonIcon', fontPackage: 'icones');
 }
 
 /// ## [Carbon](https://carbondesignsystem.com/guidelines/icons/library)
 /// #### IBM
 /// ###### v 11.29.2
 @staticIconProvider
-abstract final class Carbon {
+abstract final class CarbonIcon {
   static const IconData $3d_cursor = CarbonIconData(0xe001);
 
   static const IconData $3d_cursor_alt = CarbonIconData(0xe002);
