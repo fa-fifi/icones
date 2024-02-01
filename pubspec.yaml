@@ -19,9 +19,9 @@ dev_dependencies:
 
 flutter:
   fonts:
-    - family: Carbon
+    - family: CarbonIcon
       fonts:
-        - asset: assets/fonts/Carbon.ttf
+        - asset: assets/fonts/CarbonIcon.ttf
     - family: MingCuteIcon
       fonts:
         - asset: assets/fonts/MingCuteIcon.ttf
