@@ -1,6 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
+import 'package:icones/icones.dart';
 
 class CarbonPictogramData extends IconData {
   const CarbonPictogramData(super.codePoint)
@@ -10,8 +11,7 @@ class CarbonPictogramData extends IconData {
 /// ## [Carbon Pictogram](https://carbondesignsystem.com/guidelines/pictograms/library)
 /// #### IBM
 /// ###### v 11.29.0
-@staticIconProvider
-abstract final class CarbonPictogram {
+abstract final class CarbonPictogram extends Icones {
   static const IconData accelerated_computing = CarbonPictogramData(0xe900);
 
   static const IconData accelerating_transformation =
