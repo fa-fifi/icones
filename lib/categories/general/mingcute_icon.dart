@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/widgets.dart';
-import 'package:icones/widgets/duotone_icon.dart';
+import 'package:icones/icones.dart';
 
 // TODO: Create duotone icon data for each pair of icons.
 class MingCuteIconData extends IconData {
@@ -12,8 +12,7 @@ class MingCuteIconData extends IconData {
 /// ## [MingCute Icons](https://www.mingcute.com)
 /// #### MingCute Design
 /// ###### v 2.88
-@staticIconProvider
-abstract final class MingCuteIcon {
+abstract final class MingCuteIcon extends Icones {
   static const IconData ABS_fill = MingCuteIconData(0xe900);
 
   static const IconData ABS_line = MingCuteIconData(0xe901);

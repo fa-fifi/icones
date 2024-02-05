@@ -1,6 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
+import 'package:icones/icones.dart';
 
 class CarbonIconData extends IconData {
   const CarbonIconData(super.codePoint)
@@ -10,8 +11,7 @@ class CarbonIconData extends IconData {
 /// ## [Carbon Icon](https://carbondesignsystem.com/guidelines/icons/library)
 /// #### IBM
 /// ###### v 11.29.0
-@staticIconProvider
-abstract final class CarbonIcon {
+abstract final class CarbonIcon extends Icones {
   static const IconData $3d_cursor = CarbonIconData(0xe001);
 
   static const IconData $3d_cursor_alt = CarbonIconData(0xe002);
