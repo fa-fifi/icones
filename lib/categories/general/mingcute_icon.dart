@@ -3008,14 +3008,14 @@ abstract final class MingCuteIcon extends Icones {
   static const IconData loading_2_line = MingCuteIconData(0xeed3);
 
   static const DuotoneIconData loading_3_fill =
-      (_loading_3_fill_path1, _loading_3_fill_path2);
+      (foreground: _loading_3_fill_path1, background: _loading_3_fill_path2);
 
   static const IconData _loading_3_fill_path1 = MingCuteIconData(0xeed4);
 
   static const IconData _loading_3_fill_path2 = MingCuteIconData(0xeed5);
 
   static const DuotoneIconData loading_3_line =
-      (_loading_3_line_path1, _loading_3_line_path2);
+      (foreground: _loading_3_line_path1, background: _loading_3_line_path2);
 
   static const IconData _loading_3_line_path1 = MingCuteIconData(0xeed6);
 

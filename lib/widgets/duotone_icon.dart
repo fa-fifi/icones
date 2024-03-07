@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-typedef DuotoneIconData = (IconData, IconData);
+typedef DuotoneIconData = ({IconData foreground, IconData background});
 
 class DuotoneIcon extends StatelessWidget {
   final DuotoneIconData icon;
@@ -45,14 +45,14 @@ class DuotoneIcon extends StatelessWidget {
           child: Stack(alignment: alignment, children: [
             Opacity(
                 opacity: opacity,
-                child: Icon(icon.$1, color: color, size: size)),
+                child: Icon(icon.foreground, color: color, size: size)),
             ClipRRect(
               borderRadius: borderRadius,
               child: Align(
                   alignment: alignment,
                   heightFactor: heightFactor,
                   widthFactor: widthFactor,
-                  child: Icon(icon.$2, color: color, size: size)),
+                  child: Icon(icon.background, color: color, size: size)),
             ),
           ]),
         ),
