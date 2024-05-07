@@ -1,7 +1,5 @@
 part of 'index.dart';
 
-typedef DuotoneIconData = ({IconData foreground, IconData background});
-
 class DuotoneIcon extends StatelessWidget {
   final DuotoneIconData icon;
   final Color? color;

@@ -6,6 +6,7 @@ library;
 import 'package:flutter/material.dart';
 
 export 'src/categories/index.dart';
+export 'src/shared/index.dart';
 export 'src/widgets/index.dart';
 
 @staticIconProvider
