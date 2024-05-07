@@ -2,7 +2,6 @@
 
 part of '../index.dart';
 
-// TODO: Create duotone icon data for each pair of icons.
 class MingCuteIconData extends IconData {
   const MingCuteIconData(super.codePoint)
       : super(fontFamily: 'MingCuteIcon', fontPackage: 'icones');
